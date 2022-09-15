@@ -8,6 +8,7 @@ import { theme } from './theme/global';
 import { styled } from '@mui/material/styles';
 
 import Button from "@mui/material/Button";
+import MainPage from './pages/main/MainPage';
 const StyledButton = styled(Button)`
   background-color: ${props => props.theme.palette.primary.light};
   color: ${props => props.theme.palette.text.primary};
@@ -22,16 +23,7 @@ function App() {
   return (
     <LanguageContainer>
       <ThemeProvider theme={theme}>
-        <MUISwitchDiv />
-        <FormattedMessage
-          id="header.welcome"
-          defaultMessage="Welcome"
-        />
-        <StyledButton
-        >
-          Learn React
-        </StyledButton>
-
+        <MainPage />
       </ThemeProvider>
     </LanguageContainer>
   )
