@@ -7,7 +7,7 @@ const SideBar = () => {
             <FormattedMessage
                 id="header.welcome"
                 defaultMessage="Welcome"
-            />
+            /> <p> Teste</p>
         </HeaderContainer>
     );
 }

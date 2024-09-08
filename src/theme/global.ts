@@ -1,27 +1,32 @@
-
-import { createTheme } from '@mui/material';
-
-
+import { createTheme } from "@mui/material";
 
 export interface CustomTheme {
-// Custom theme vars goes here
+  // Custom theme vars goes here
 }
 
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#1b1d2d',
+      main: "#1b1d2d",
     },
     secondary: {
-      main: '#bbbbbb',
+      main: "#bbbbbb",
     },
     text: {
-      primary: '#0d1014',
-      secondary: '#23262b',
+      primary: "#0d1014",
+      secondary: "#23262b",
     },
     background: {
-      paper: '#FAFAFA',
+      default: "#293039",
+      paper: "#34a468",
     },
+    card: {
+      main: "#fffef4",
+      contrastText: "#293039",
+      dark: "#331A00",
+      light: "#fffef4",
+      
+    }
   },
   breakpoints: {
     values: {
@@ -32,11 +37,16 @@ export const theme = createTheme({
       lg: 1280,
       xl: 1400,
     },
-  }
+  },
 });
 
-
 declare module "@mui/material/styles" {
+  interface Palette {
+    card: Palette['primary'];
+  }
+  interface PaletteOptions {
+    card: PaletteOptions['primary'];
+  }
   interface BreakpointOverrides {
     xs: true;
     sm: true;
@@ -46,10 +56,3 @@ declare module "@mui/material/styles" {
     xl: true;
   }
 }
-
-
-
-
-
-
-

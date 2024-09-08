@@ -12,7 +12,7 @@ export interface ILang {
   toggleLanguage: () => void;
 };
 
-//create context allow us to access the language vars and functins in any app location without the need to pass it by props to every child component
+//create context allow us to access the language vars and functions in any app location without the need to pass it by props to every child component
 export const LanguageContext = createContext({} as ILang);
 
 //the app default language is english
