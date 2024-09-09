@@ -1,9 +1,19 @@
-const Portfolio = () => {
-    return (
-        <div>
-            <h1>My Portfolio</h1>
-        </div>
-    );
-}
+import { Container, Wrapper, Section, Title, Content } from './styles';
 
-export default Portfolio;
+const Profile = () => {
+  return (
+    <Container>
+      <Wrapper>
+        <Section>
+          <Content>
+          <Title>Work Experience</Title>
+            <p>Palmares Do Sul City Hall | History Teacher</p>
+   
+          </Content>
+        </Section>
+      </Wrapper>
+    </Container>
+  );
+};
+
+export default Profile;

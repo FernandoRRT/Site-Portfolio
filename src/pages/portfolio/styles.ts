@@ -11,7 +11,6 @@ export const Wrapper = styled('div')({
   display: 'flex',
   flexDirection: 'column',
   gap: '20px',
-  paddingTop: '20px',
 });
 
 export const Section = styled('div')({
