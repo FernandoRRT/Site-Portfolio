@@ -117,6 +117,10 @@ export const ActionButtons = styled("div")(({ theme }) => ({
 export const StyledLinkedInIcon = styled(LinkedInIcon)(({ theme }) => ({
   color: theme.palette.card.main,
   fontSize: "3rem",
+  transition: "color 0.3s ease", 
+  '&:hover': {
+    color: "#0077b5",
+  },
   [theme.breakpoints.down("lg")]: {
     fontSize: "4rem"
   },
@@ -125,6 +129,10 @@ export const StyledLinkedInIcon = styled(LinkedInIcon)(({ theme }) => ({
 export const StyledEmailIcon = styled(EmailIcon)(({ theme }) => ({
   color: theme.palette.card.main,
   fontSize: "3rem",
+  transition: "color 0.3s ease", 
+  '&:hover': {
+    color: "#D93025",
+  },
   [theme.breakpoints.down("lg")]: {
     fontSize: "4rem"
   },
@@ -133,6 +141,12 @@ export const StyledEmailIcon = styled(EmailIcon)(({ theme }) => ({
 export const StyledGitHubIcon = styled(GitHubIcon)(({ theme }) => ({
   color: theme.palette.card.main,
   fontSize: "3rem",
+  transition: "color 0.3s ease", 
+  '&:hover': {
+    color: "#181717",
+    background: "#fff",
+    borderRadius: "50%",
+  },
   [theme.breakpoints.down("lg")]: {
     fontSize: "4rem"
   }

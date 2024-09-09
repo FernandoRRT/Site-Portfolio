@@ -1,9 +1,8 @@
 import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/Header';
 import SideBar from '../../components/sidebar/SideBar';
-import Profile from '../profile/Profile';
 import { GridAside, GridFooter, GridHeader, GridMain, GridStructure } from './structure';
-
+import { Outlet } from 'react-router-dom'; 
 
 const MainPage = () => {
     return (
@@ -15,7 +14,7 @@ const MainPage = () => {
                 <SideBar />
             </GridAside>
             <GridMain>
-                <Profile />
+                <Outlet />
             </GridMain>
             <GridFooter>
                 <Footer />

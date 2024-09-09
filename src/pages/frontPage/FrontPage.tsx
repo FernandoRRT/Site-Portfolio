@@ -1,4 +1,5 @@
-import { FormattedMessage } from "react-intl";
+// import { FormattedMessage } from "react-intl";
+import { Link } from "react-router-dom";
 import {
   ActionButtons,
   Container,
@@ -27,8 +28,14 @@ const FrontPage = () => {
     <Container>
       <ProfileArea>
         <ProfileDiv>
-          <ProfileImageBack src="/images/FernandoBack.png" alt="Profile background" />
-          <ProfileImageFront src="/images/FernandoFront.png" alt="Profile front" />
+          <ProfileImageBack
+            src="/images/FernandoBack.png"
+            alt="Profile background"
+          />
+          <ProfileImageFront
+            src="/images/FernandoFront.png"
+            alt="Profile front"
+          />
         </ProfileDiv>
         <ActionButtons>
           <IconButton
@@ -92,8 +99,12 @@ const FrontPage = () => {
           </ResumeTextXL>
         </ResumeArea>
         <ResumeActionDiv>
-          <ResumeActionButtons>Resume</ResumeActionButtons>
-          <ResumeActionButtons>Portfolio</ResumeActionButtons>
+          <Link to="/resume/profile" style={{ textDecoration: "none" }}>
+            <ResumeActionButtons>Resume</ResumeActionButtons>
+          </Link>
+          <Link to="/resume/portfolio" style={{ textDecoration: "none" }}>
+            <ResumeActionButtons>Portfolio</ResumeActionButtons>
+          </Link>
         </ResumeActionDiv>
       </DetailsArea>
     </Container>
