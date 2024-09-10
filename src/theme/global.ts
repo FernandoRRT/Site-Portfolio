@@ -23,7 +23,7 @@ export const theme = createTheme({
     card: {
       main: "#fffef4",
       contrastText: "#293039",
-      dark: "#331A00",
+      dark: "#590a4e",
       light: "#fffef4",
       
     }

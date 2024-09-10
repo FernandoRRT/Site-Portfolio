@@ -171,7 +171,7 @@ export const ChargeName = styled("p")`
 export const AboutText = styled("h2")`
   font-family: "Open Sans", sans-serif;
   font-size: 1.75rem;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   padding-bottom: 20px;
 `;

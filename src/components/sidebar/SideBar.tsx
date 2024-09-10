@@ -1,23 +1,13 @@
 import { useState, useEffect } from "react";
 import { useMediaQuery, useTheme } from "@mui/material";
 import { List, ListItemButton, ListItemText } from "@mui/material";
-import {
-  HouseRounded,
-  PermContactCalendarRounded,
-  MenuBookRounded,
-  Menu,
-  CloseRounded,
-} from "@mui/icons-material";
+import { HouseRounded, PermContactCalendarRounded, MenuBookRounded, Menu, CloseRounded } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-import { ButtonSidebarToggle, HeaderContainer, SidebarToggleIcon, StyledListItemIcon } from "./styles";
+import { SidebarButton, HeaderContainer, StyledListItemIcon } from "./styles";
 
 const menuItems = [
   { name: "Home", path: "/", icon: <HouseRounded /> },
-  {
-    name: "Profile",
-    path: "/resume/profile",
-    icon: <PermContactCalendarRounded />,
-  },
+  { name: "Profile", path: "/resume/profile", icon: <PermContactCalendarRounded /> },
   { name: "Portfolio", path: "/resume/portfolio", icon: <MenuBookRounded /> },
 ];
 
@@ -36,12 +26,9 @@ const SideBar = () => {
 
   return (
     <HeaderContainer isCollapsed={isCollapsed}>
-      <ButtonSidebarToggle isCollapsed={isCollapsed} onClick={toggleSidebar}>
-        <SidebarToggleIcon>
-          {!isCollapsed ? <CloseRounded /> : <Menu />}
-        </SidebarToggleIcon>
-        {!isCollapsed ? <span>Close</span> : null}
-      </ButtonSidebarToggle>
+      <SidebarButton isCollapsed={isCollapsed} onClick={toggleSidebar}>
+        {isCollapsed ? <Menu /> : <><CloseRounded /><span>Close</span></>}
+      </SidebarButton>
       <nav>
         <List>
           {menuItems.map((item, index) => (

@@ -1,0 +1,121 @@
+{
+    "name": "Fernando Torres",
+    "sections": [
+      {
+        "title": "Experience",
+        "entries": [
+          {
+            "role": "Palmares Do Sul City Hall | History Teacher",
+            "period": "April 2017 – Present (7 years, 6 months)",
+            "details": [
+              "Planned and organized teaching strategies with a focus on reducing student dropout rates.",
+              "Taught History classes to upper elementary school students.",
+              "Delivered virtual classes through distance learning (via videoconferencing) using Google Classroom.",
+              "Organized and coordinated educational fairs.",
+              "Recorded grades and evaluated student performance.",
+              "Created and utilized multimedia resources in the classroom (PowerPoint presentations, images/memes, films, documentaries, etc.)."
+            ]
+          },
+          {
+            "role": "Freelancer | Self-employed",
+            "period": "June 2022 – June 2024 (2 years)",
+            "details": [
+              "Deployed websites and applications.",
+              "Created hotsites and email marketing campaigns.",
+              "Consumed and created APIs.",
+              "Managed databases.",
+              "Created, managed, and supported STPs."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Education",
+        "entries": [
+          {
+            "degree": "Lato Sensu Postgraduate",
+            "specialization": "Specialization in Systems Development for Mobile Devices",
+            "period": "2024-2026",
+            "institution": "IFSP – Instituto Federal de Educação, Ciência e Tecnologia São Paulo"
+          },
+          {
+            "degree": "Higher Technology Course (CST)",
+            "specialization": "Computer Systems Analysis",
+            "period": "2019-2021",
+            "institution": "UNINTER – Centro Universitário Internacional"
+          },
+          {
+            "degree": "Associate's degree",
+            "specialization": "Tourism Management",
+            "period": "2015-2017",
+            "institution": "UNINTER – Centro Universitário Internacional"
+          },
+          {
+            "degree": "Lato Sensu Postgraduate",
+            "specialization": "Education",
+            "period": "2009-2012",
+            "institution": "IFSUL – Instituto Federal de Educação e Tecnologia Sul-rio-grandense"
+          },
+          {
+            "degree": "Bachelor’s Degree",
+            "specialization": "History",
+            "period": "2003-2008",
+            "institution": "FAPA – Faculdades Porto-Alegrense"
+          }
+        ]
+      },
+      {
+        "title": "Skills",
+        "sections": [
+          {
+            "title": "Front-End Skills",
+            "skills": [
+              "Advanced level: HTML, CSS/SASS, JQuery, Javascript, React (JS);",
+              "Intermediate level: Typescript, React (TS), Vue.js, Material UI, Bootstrap;",
+              "Beginner level: Tailwind, Angular."
+            ]
+          },
+          {
+            "title": "Back-End Skills",
+            "skills": [
+              "Intermediate level: Java, Laravel, Relational Database (MySQL, PostgreSQL);",
+              "Beginner level: PHP, Node, Java."
+            ]
+          },
+          {
+            "title": "Mobile Skills",
+            "skills": [
+              "Intermediate level: React Native (TS e JS);",
+              "Beginner level: Flutter (Dart) and Android (Java/Kotlin)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Other Skills",
+        "sections": [
+          {
+            "title": "Languages",
+            "items": [
+              "English – C1",
+              "Spanish – B1",
+              "Portuguese – Native"
+            ]
+          },
+          {
+            "title": "Courses/Bootcamps",
+            "items": [
+              "User Experience (IGTI)",
+              "Node.JS Developer (IGTI)",
+              "Cross-Platform Mobile Developer (IGTI)",
+              "React Developer (IGTI)",
+              "Front-End Developer (IGTI)",
+              "REST API with Laravel 8 (Udemy)",
+              "CSS/Flexbox/Grid Layout (Origamid)"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
